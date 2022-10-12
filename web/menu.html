@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styleMenu.css" type="text/css"/>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+   <div class="contenedor">
+            <table>
+       <tr>
+         <th>Item</th>
+         <th>Amount</th>
+       </tr>
+       <tr>
+         <td>Grapes</td>
+         <td>$18</td>
+       </tr>
+       <tr>
+         <td>Apples</td>
+         <td>$4</td>
+       </tr>
+       <tr>
+         <td>Pears</td>
+         <td>$7</td>
+       </tr>
+     </table>
+   </div>
+   <div class="fecha">
+       <h1>The table element</h1>
+       <table>
+          <tr>
+           <th>Month</th>
+           <th>Savings</th>
+          </tr>
+          <tr>
+           <td>January</td>
+           <td>$100</td>
+          </tr>
+        </table>
+   </div>
+   <div class="canvas">
+      <h1>The canvas element</h1>
+
+      <canvas id="myCanvas">
+      </canvas>
+   </div>
+   <div class="col">
+       <h1>The col element</h1>
+       <table style="width:100%">
+        <tr>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td style="text-align:right">$53</td>
+        </tr>
+        <tr>
+          <td>2489604</td>
+          <td>My first CSS</td>
+          <td style="text-align:right">$47</td>
+        </tr>
+      </table>
+   </div>
+   <div class="form">
+      <h1>The form element</h1>
+
+        <form action="/action_page.php">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+        <p>Click the "Submit" button and the form-data will be sent to a page on the 
+           server called "action_page.php".</p>
+   </div>
+   <div class="row">
+     <h1>The text-area rows</h1>
+
+       <textarea rows="4" cols="50">
+       This text can be modified or copied
+       </textarea>
+   </div>
+   <div class="form">
+     <h1>The footer element</h1>
+
+       <footer>
+         <p>Author: Darian Camacho<br>
+         <a href="delgadodarian2003@gmail.com">delgadodarian2003@gmial.com</a></p>
+       </footer>
+   </div>
+   <div class="header">
+       <article>
+           <header>
+               <h1>A heading here</h1>
+               <p> Posted by Darian Camacho</p>
+               <p> Some additional information here</p>
+           </header>
+       </article>
+   </div>   
+   <div class="iFrame">
+       <h1>The iframe element</h1>
+       
+        <iframe src="https://boxicons.com" title="https://boxicons.com">
+        </iframe>
+
+   </div>
+    <div class="video">
+       <h1> The video element </h1>
+       <video width="320" height="240" controls>
+           <source src="https://www.youtube.com/watch?v=9Wi2a5_3umU" type="video/http">
+       </video>
+   </div>   
+    
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus icon'></i>
+        <div class="logo_name">AZA</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+         <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+       <a href="#">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">User</span>
+       </a>
+       <span class="tooltip">User</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Messages</span>
+       </a>
+       <span class="tooltip">Messages</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">Analytics</span>
+       </a>
+       <span class="tooltip">Analytics</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">File Manager</span>
+       </a>
+       <span class="tooltip">Files</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">Order</span>
+       </a>
+       <span class="tooltip">Order</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-heart' ></i>
+         <span class="links_name">Saved</span>
+       </a>
+       <span class="tooltip">Saved</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="profile.jpg" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Darian Camacho</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <a href="index.html">
+         <i class='bx bx-log-out' id="log_out" ></i>
+         <span class="links_name">log_out</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">Dashboard</div>
+  </section>
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+  </script>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(20, 20, 75, 50);
+
+    //Turn transparency on
+    ctx.globalAlpha = 0.2;
+    ctx.fillStyle = "blue"; 
+    ctx.fillRect(50, 50, 75, 50); 
+    ctx.fillStyle = "green"; 
+    ctx.fillRect(80, 80, 75, 50);
+  </script>
+</body>
+</html>
